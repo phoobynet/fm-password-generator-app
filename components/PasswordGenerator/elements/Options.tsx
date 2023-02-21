@@ -6,6 +6,8 @@ import { ChangeEventHandler, KeyboardEventHandler } from 'react'
 export default function Options() {
   const length = usePasswordGeneratorStore((state) => state.length)
   const setLength = usePasswordGeneratorStore((state) => state.setLength)
+  const minLength = 8
+  const maxLength = 20
 
   const onSliderChange: ChangeEventHandler<HTMLInputElement> = (e) => {
     const v = parseInt(e.target.value)

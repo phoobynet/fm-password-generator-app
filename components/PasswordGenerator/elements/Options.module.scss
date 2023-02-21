@@ -65,6 +65,11 @@
         background-color: var(--clr-neon-green);
         height: 0.5rem;
       }
+
+      &::-webkit-progress-value {
+        background-color: var(--clr-neon-green);
+        height: 0.5rem;
+      }
     }
   }
 }
