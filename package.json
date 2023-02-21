@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "dependencies": {
     "@next/font": "13.1.6",
@@ -15,9 +17,18 @@
     "@types/react-dom": "18.0.11",
     "eslint": "8.34.0",
     "eslint-config-next": "13.1.6",
+    "generate-password": "^1.7.0",
     "next": "13.1.6",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "typescript": "4.9.5"
+    "react-icons": "^4.7.1",
+    "typescript": "4.9.5",
+    "zustand": "^4.3.3"
+  },
+  "devDependencies": {
+    "@trivago/prettier-plugin-sort-imports": "^4.0.0",
+    "eslint-config-prettier": "^8.6.0",
+    "prettier": "^2.8.4",
+    "sass": "^1.58.3"
   }
 }

@@ -1,0 +1,18 @@
+@import '@/styles/functions.scss';
+
+.generateBtn {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  align-items: center;
+  width: 100%;
+  color: var(--clr-dark-grey);
+  background-color: var(--clr-neon-green);
+  height: rem(56px);
+  text-align: center;
+  text-transform: uppercase;
+
+  @media (min-width: 768px) {
+    height: rem(65px);
+  }
+}

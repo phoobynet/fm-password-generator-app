@@ -1,6 +1,15 @@
-import '@/styles/globals.css'
+import '@/styles/globals.scss'
 import type { AppProps } from 'next/app'
+import Head from 'next/head'
 
-export default function App({ Component, pageProps }: AppProps) {
-  return <Component {...pageProps} />
+export default function App ({
+  Component,
+  pageProps,
+}: AppProps) {
+  return (<>
+    <Head>
+      <title>Frontend Mentor | Password generator app</title>
+    </Head>
+    <Component {...pageProps} />
+  </>)
 }

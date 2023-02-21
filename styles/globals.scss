@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@700&display=swap');
+@import 'reset';
+@import 'functions';
+
+:root {
+  --clr-very-dark-grey: #18171f;
+  --clr-dark-grey: #24232c;
+  --clr-grey: #817d92;
+  --clr-almost-white: #e6e5ea;
+  --clr-neon-green: #a4ffaf;
+  --clr-yellow: #f8cd65;
+  --clr-orange: #fb7c58;
+  --clr-red: #f64a4a;
+
+  --fs-small: 1rem;
+  --fs-base: 1.125rem;
+  --fs-large: 1.5rem;
+  --fs-xlarge: 2rem;
+}
+
+body {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: var(--fs-base);
+  font-weight: 700;
+  background-color: var(--clr-very-dark-grey);
+  min-height: 100vh;
+  color: var(--clr-almost-white);
+}
